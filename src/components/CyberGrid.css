@@ -1,0 +1,15 @@
+.cyber-grid-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .cyber-grid-container {
+        opacity: 0.5;
+    }
+}

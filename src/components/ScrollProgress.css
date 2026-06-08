@@ -1,0 +1,20 @@
+.scroll-progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--accent-primary), var(--accent-cyan), var(--accent-rose));
+    transform-origin: 0%;
+    z-index: 1100;
+}
+
+.scroll-progress-glow {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 80px;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(34, 211, 238, 0.6));
+    filter: blur(4px);
+}

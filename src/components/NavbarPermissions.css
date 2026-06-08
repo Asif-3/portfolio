@@ -1,0 +1,60 @@
+/* Update Logo Wrapper to handle image */
+.logo-wrapper {
+    position: relative;
+    width: 60px;
+    /* Increased slightly for better visibility if image is complex */
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.03);
+    /* More subtle background for image */
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow:
+        0 4px 15px rgba(139, 92, 246, 0.2),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.logo-image {
+    width: 85%;
+    height: 85%;
+    object-fit: contain;
+    z-index: 2;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+/* Remove or update old logic if needed, but keeping wrappers is safe */
+.logo-glow {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at center, rgba(139, 92, 246, 0.4), transparent 70%);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.logo:hover .logo-glow {
+    opacity: 1;
+}
+
+/* Scrolled navbar styles are defined in Navbar.css */
+
+.nav-links.desktop a {
+    /* Improve font rendering */
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: 0.5px;
+}
+
+/* Refine Nav Container for alignment */
+.nav-container {
+    max-width: var(--container-max);
+    margin: 0 auto;
+    padding: 0 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    /* Ensure full height usage */
+}
