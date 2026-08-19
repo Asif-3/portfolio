@@ -40,7 +40,7 @@ const Stats = () => {
     const stats = [
         { target: 10, suffix: '+', label: 'Projects', icon: '🚀' },
         { target: 25, suffix: '+', label: 'Technologies', icon: '⚡' },
-        { target: 2, suffix: '+', label: 'Years Learning', icon: '📚' },
+        { target: 3, suffix: '+', label: 'Years Learning', icon: '📚' },
     ];
 
     const containerVariants = {

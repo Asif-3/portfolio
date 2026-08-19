@@ -71,7 +71,7 @@ const Hero = () => {
 
     const handleDownloadResume = () => {
         const link = document.createElement('a');
-        link.href = '/Mohamed Asif-resume.pdf';
+        link.href = '/Mohamed_Asif_Resume.pdf';
         link.download = 'Mohamed_Asif_Resume.pdf';
         document.body.appendChild(link);
         link.click();
@@ -290,7 +290,7 @@ const Hero = () => {
                             <FaGithub />
                         </motion.a>
                         <motion.a
-                            href="mailto:mohamedasif1437@gmail.com"
+                            href="mailto:mohamedasif.1524@gmail.com"
                             className="social-link"
                             whileHover={{ y: -6, scale: 1.15, boxShadow: '0 10px 30px rgba(124, 58, 237, 0.3)' }}
                             whileTap={{ scale: 0.95 }}

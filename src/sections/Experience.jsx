@@ -1,5 +1,5 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { FaBrain, FaMicrochip } from 'react-icons/fa';
+import { FaBrain, FaMicrochip, FaLaptopCode } from 'react-icons/fa';
 import { useInView } from 'react-intersection-observer';
 import { useRef } from 'react';
 import './Experience.css';
@@ -17,22 +17,31 @@ const Experience = () => {
 
     const experiences = [
         {
-            icon: <FaBrain />,
-            title: 'Artificial Intelligence Internship',
-            company: 'Odugaatech Pvt. Ltd.',
-            duration: '29 Jan 2025 - 14 Feb 2025',
-            description: 'Gained hands-on experience in Artificial Intelligence concepts, Python automation, and understanding real-world AI workflow and model development.',
-            color: '#8b5cf6',
-            skills: ['Python', 'AI', 'Automation']
+            icon: <FaLaptopCode />,
+            title: 'Full-Stack Development Internship',
+            company: 'Codomax Digital Solutions',
+            duration: '20 Jul 2026 - 02 Aug 2026',
+            description: 'Completed a two-week virtual internship focused on full-stack development and real-world application development. Successfully completed assigned development tasks while demonstrating technical aptitude, problem-solving skills, and adaptability.',
+            color: '#22c55e',
+            skills: ['Full Stack', 'Web Development', 'Problem Solving']
         },
         {
             icon: <FaMicrochip />,
             title: 'CUDA Python Internship',
             company: 'ADVI Group of Companies',
             duration: '25 Jun 2025 - 29 Jul 2025',
-            description: 'Completed an advanced internship involving deployment of CUDA Python onto Nvidia boards. Worked on GPU acceleration, parallel processing, and performance optimization techniques.',
+            description: 'Worked with CUDA Python deployment on NVIDIA boards, focusing on GPU acceleration, parallel processing, and performance optimization techniques.',
             color: '#06b6d4',
             skills: ['CUDA', 'GPU', 'Python', 'Nvidia']
+        },
+        {
+            icon: <FaBrain />,
+            title: 'Artificial Intelligence Internship',
+            company: 'Odugaatech Pvt. Ltd.',
+            duration: '29 Jan 2025 - 14 Feb 2025',
+            description: 'Gained practical experience in Artificial Intelligence concepts, Python automation, AI workflows, and model development.',
+            color: '#8b5cf6',
+            skills: ['Python', 'AI', 'Automation']
         }
     ];
 

@@ -18,7 +18,7 @@ const Contact = () => {
     }, []);
 
     const contactInfo = [
-        { icon: <FaEnvelope />, title: 'Email', content: 'mohamedasif1437@gmail.com', link: 'mailto:mohamedasif1437@gmail.com', color: '#8b5cf6' },
+        { icon: <FaEnvelope />, title: 'Email', content: 'mohamedasif.1524@gmail.com', link: 'mailto:mohamedasif.1524@gmail.com', color: '#8b5cf6' },
         { icon: <FaPhone />, title: 'Phone', content: '+91 9025670763', link: 'tel:+919025670763', color: '#06b6d4' },
         { icon: <FaMapMarkerAlt />, title: 'Location', content: 'Salem, Tamil Nadu, India', link: null, color: '#f472b6' }
     ];
@@ -50,7 +50,7 @@ const Contact = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        const mailtoLink = `mailto:mohamedasif1437@gmail.com?subject=${encodeURIComponent(formData.subject || 'Portfolio Contact')}&body=${encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`)}`;
+        const mailtoLink = `mailto:mohamedasif.1524@gmail.com?subject=${encodeURIComponent(formData.subject || 'Portfolio Contact')}&body=${encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`)}`;
         window.location.href = mailtoLink;
     };
 

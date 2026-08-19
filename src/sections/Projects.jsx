@@ -11,8 +11,18 @@ const Projects = () => {
     const projects = [
         {
             id: 1,
+            title: 'ShadowTrap AI — Cyber Deception & Threat Intelligence Engine',
+            description: 'An AI-powered cybersecurity monitoring platform using the Cowrie honeypot to capture and analyze simulated SSH attacks. Features attacker behavior analysis, IP intelligence, attack visualization, detailed security reporting, and automated Telegram alerts for real-time attack notifications.',
+            image: '/shadowtrapai.png',
+            github: 'https://github.com/Asif-3/ShadowTrap-AI',
+            tags: ['Python', 'AI', 'Cybersecurity', 'Honeypot'],
+            featured: true,
+            color: '#8b5cf6'
+        },
+        {
+            id: 2,
             title: 'Phishing Link Blocker Extension',
-            description: 'A browser extension that detects and blocks phishing URLs in real-time using heuristic analysis and threat intelligence. Protects users from malicious sites before they load.',
+            description: 'A lightweight browser extension for real-time URL validation and phishing threat detection. Designed to identify suspicious links and block potentially malicious websites while maintaining browser performance.',
             image: '/phishing-link-extension.png',
             github: 'https://github.com/Asif-3/Phishing-Link-Blocker-Extension',
             tags: ['JavaScript', 'Cybersecurity', 'Browser Extension', 'Phishing Detection'],
@@ -20,7 +30,7 @@ const Projects = () => {
             color: '#ef4444'
         },
         {
-            id: 2,
+            id: 3,
             title: 'Movie Recommendation System',
             description: 'Interactive web app recommending movies using TF-IDF and cosine similarity algorithms. Features integrated posters, caching, and error handling for smooth user experience.',
             image: 'https://repository-images.githubusercontent.com/828102528/68a7bbfc-8022-4e70-913c-9d94c6ea31f5',
@@ -30,6 +40,7 @@ const Projects = () => {
             color: '#06b6d4'
         }
     ];
+
 
     const containerVariants = {
         hidden: { opacity: 0 },

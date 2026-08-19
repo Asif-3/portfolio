@@ -16,7 +16,7 @@ const Footer = () => {
     const socialLinks = [
         { icon: <FaGithub />, href: 'https://github.com/Asif-3', label: 'GitHub' },
         { icon: <FaLinkedin />, href: 'https://www.linkedin.com/in/mohamed-asif-m-35963a2a1/', label: 'LinkedIn' },
-        { icon: <FaEnvelope />, href: 'mailto:mohamedasif1437@gmail.com', label: 'Email' },
+        { icon: <FaEnvelope />, href: 'mailto:mohamedasif.1524@gmail.com', label: 'Email' },
     ];
 
     return (
@@ -68,9 +68,9 @@ const Footer = () => {
                     <div className="footer-contact-section">
                         <h4 className="footer-heading">Contact</h4>
                         <div className="footer-contact-info">
-                            <a href="mailto:mohamedasif1437@gmail.com" className="footer-contact-item">
+                            <a href="mailto:mohamedasif.1524@gmail.com" className="footer-contact-item">
                                 <FaEnvelope />
-                                <span>mohamedasif1437@gmail.com</span>
+                                <span>mohamedasif.1524@gmail.com</span>
                             </a>
                             <p className="footer-contact-item">
                                 <span>Salem, Tamil Nadu, India</span>
